@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font class */
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared style */
+
+.body-bg-color {
+    background-color: rgba(216, 191, 216, 0.106);
+}
+
+.color2 {
+    color: rgba(37, 36, 50, 1);
+}
+
+.primary-btn {
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16Px;
+    color: white;
+}
+
+/* header setion */
+
+.header-bg {
+    background-image: url('image/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin: 0 150px;
+}
+
+.company-name {
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.banner {
+    margin: 200px 267px 152px 300px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.banner-tittle {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
+
+}
+
+/* action section */
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+}
+
+.action-section img {
+    width: 403px;
+    height: 328px;
+    border-radius: 30px;
+}
+
+.action-tittle {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-description {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    padding: 23px 0;
+}
+
+.action-part1 {
+    width: 517px;
+}
+
+
+/* productive user section */
+
+.productive-user {
+    align-items: center;
+    padding: 20px auto;
+    margin: 50px 140px;
+    background-color: rgba(236, 215, 250, 0.466);
+    border: .5px solid rgba(216, 191, 216, 0.221);
+    border-radius: 15px;
+}
+
+.production-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 50px 142px;
+}
+
+.production-tittle {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.production-amount {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.production-name {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
