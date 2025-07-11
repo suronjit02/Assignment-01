@@ -5,6 +5,12 @@
 
 /* font class */
 
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -140,4 +146,61 @@ nav {
 .production-name {
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+}
+
+/* riview section style */
+
+.review-section {
+    margin: 150px 140px;
+
+}
+
+.review-tittle {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+
+.reviewer-container {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviewer-div {
+    background-color: white;
+    margin: auto 5px;
+    padding: 20px 20px;
+    border: .5px solid thistle;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.169);
+}
+
+.second-tittle {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #252432;
+}
+
+.riviewer-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.riview-description{
+    margin: 10px auto;
+}
+
+.riviewer-details,
+.riviewer-photo {
+    border: .05px solid teal;
+    border-radius: 50px;
+
 }
