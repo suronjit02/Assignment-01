@@ -224,6 +224,34 @@ nav {
     gap: 10px;
 }
 
+/* free offer section */
+
+.free-offer-section{
+    margin: 150px 140px;
+    text-align: center;
+}
+
+.free-offer-tittle{
+    font-size: 50px;
+    font-weight: bold;
+    color: #252432;
+    margin: 15px auto;
+}
+
+.free-offer-section a{
+    display: block;
+}
+
+.get-free-button{
+    margin: 20px auto;
+}
+
+.free-offer-tamplate{
+    border-radius: 40px;
+
+}
+
+
 /* lets-get-section */
 
 .lets-get-section {
