@@ -41,16 +41,20 @@
     font-weight: bold;
     font-size: 16Px;
     color: white;
+
+
 }
 
 .primary-btn:hover {
     padding: 12px 36px;
+    color: white;
     background-color: teal;
     border: none;
     border-radius: 10px;
     font-weight: bold;
     font-size: 16Px;
-    color: white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.195);
+
 }
 
 /* header section */
@@ -60,7 +64,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 730px;
+    height: 740px;
 }
 
 nav {
@@ -81,6 +85,7 @@ nav {
     margin: 100px 300px;
     text-align: center;
     padding-bottom: 50px;
+    margin-top: 130px;
 }
 
 .banner-tittle {
@@ -218,7 +223,7 @@ nav {
 
 }
 
-.reviewer-details{
+.reviewer-details {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -226,27 +231,36 @@ nav {
 
 /* free offer section */
 
-.free-offer-section{
+.free-offer-section {
     margin: 150px 140px;
     text-align: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 700px;
+
 }
 
-.free-offer-tittle{
+.free-offer-tittle {
     font-size: 50px;
     font-weight: bold;
     color: #252432;
     margin: 15px auto;
 }
 
-.free-offer-section a{
+.free-offer-description {
+    color: #3f3f45;
+}
+
+.free-offer-section a {
     display: block;
 }
 
-.get-free-button{
+.get-free-button {
     margin: 20px auto;
 }
 
-.free-offer-tamplate{
+.free-offer-tamplate {
     border-radius: 40px;
 
 }
@@ -287,7 +301,7 @@ form textarea {
     margin-top: 5px;
     width: 500px;
     height: 50px;
-    padding: 5px 10px ;
+    padding: 5px 10px;
     border: 1px solid rgba(216, 191, 216, 0.411);
     border-radius: 10px;
     background-color: white;
@@ -295,11 +309,12 @@ form textarea {
     font-size: 15px;
 
 }
-.text-area{
+
+.text-area {
     height: 100px;
 }
 
-.get-touch-button{
+.get-touch-button {
     width: 520px;
 
 }
@@ -310,7 +325,7 @@ form textarea {
 footer {
     background-color: white;
     border-top: 1px solid rgba(216, 191, 216, 0.486);
-    padding: 150px 500px;
+    padding: 100px 500px;
 }
 
 .footer-section {
