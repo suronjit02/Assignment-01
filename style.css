@@ -235,8 +235,9 @@ nav {
 }
 
 .lets-get-tittle {
-    font-size: 97px;
+    font-size: 90px;
     font-weight: bold;
+    color: #252432;
 }
 
 .tittle-part {
@@ -255,14 +256,23 @@ form textarea {
 
     display: block;
     margin-bottom: 24px;
-    width: 300px;
+    margin-top: 5px;
+    width: 500px;
     height: 50px;
-    padding: 20px 32px;
-
+    padding: 5px 10px ;
     border: 1px solid rgba(216, 191, 216, 0.411);
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
     text-align: start;
+    font-size: 15px;
+
+}
+.text-area{
+    height: 100px;
+}
+
+.get-touch-button{
+    width: 520px;
 
 }
 
