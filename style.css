@@ -210,7 +210,7 @@ nav {
 .lets-get-section {
     margin: 150px 140px;
     display: flex;
-   gap: 115px;
+    gap: 115px;
     align-items: center;
 
 }
@@ -224,7 +224,8 @@ nav {
     max-width: 530px;
     max-height: 230px;
 }
-.form-part{
+
+.form-part {
     max-width: 500px;
     max-width: 490px;
 }
@@ -240,14 +241,51 @@ form textarea {
     border: 1px solid rgba(216, 191, 216, 0.411);
     border-radius: 5px;
     background-color: white;
+
 }
 
 .lets-get-btn {
-    padding: 12px 100%;
+    padding: 12px 36px;
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
     font-weight: bold;
     font-size: 16Px;
     color: white;
+}
+
+/* footer-section style */
+
+footer {
+    padding: 150px 510px;
+}
+
+.footer-section {
+    width: 100%;
+    text-align: center;
+
+}
+
+.footer-section ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+
+}
+
+.footer-section ul a {
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.footer-tittle {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-description {
+    margin: 15px auto;
+    color: #252432;
 }
