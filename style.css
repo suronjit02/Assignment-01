@@ -289,3 +289,7 @@ footer {
     margin: 15px auto;
     color: #252432;
 }
+
+.form-part label{
+    font-weight: 500;
+}
