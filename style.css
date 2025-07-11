@@ -60,7 +60,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 730px;
 }
 
 nav {
@@ -159,7 +159,7 @@ nav {
     font-size: 20px;
 }
 
-/* riview section style */
+/* user riview section style */
 
 .review-section {
     margin: 150px 140px;
@@ -186,7 +186,7 @@ nav {
     padding: 20px 20px;
     border: .5px solid thistle;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.169);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.112);
 }
 
 .second-tittle {
