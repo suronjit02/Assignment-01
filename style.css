@@ -26,7 +26,7 @@
 /* shared style */
 
 .body-bg-color {
-    background-color: rgba(216, 191, 216, 0.106);
+    background-color: rgba(216, 191, 216, 0.108);
 }
 
 .color2 {
@@ -43,13 +43,24 @@
     color: white;
 }
 
-/* header setion */
+.primary-btn:hover {
+    padding: 12px 36px;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16Px;
+    color: white;
+}
+
+/* header section */
 
 .header-bg {
     background-image: url('image/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 700px;
 }
 
 nav {
@@ -67,7 +78,7 @@ nav {
 }
 
 .banner {
-    margin: 200px 267px 152px 300px;
+    margin: 100px 300px;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -87,7 +98,7 @@ nav {
     align-items: center;
     width: 1140px;
     height: 328px;
-    margin: 0 auto;
+    margin: 150px auto;
 }
 
 .action-section img {
@@ -117,7 +128,7 @@ nav {
 .productive-user {
     align-items: center;
     padding: 20px auto;
-    margin: 50px 140px;
+    margin: 150px 140px;
     background-color: rgba(236, 215, 250, 0.466);
     border: .5px solid rgba(216, 191, 216, 0.221);
     border-radius: 15px;
@@ -188,10 +199,12 @@ nav {
 .riviewer-name {
     font-size: 15px;
     font-weight: bold;
+    color: #3f3f45;
 }
 
 .date {
     font-size: 12px;
+    color: #252432;
 }
 
 .riview-description {
@@ -203,6 +216,12 @@ nav {
     border: .05px solid teal;
     border-radius: 50px;
 
+}
+
+.reviewer-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* lets-get-section */
@@ -236,28 +255,24 @@ form textarea {
 
     display: block;
     margin-bottom: 24px;
-    width: 100%;
-    padding: 20px 100%;
+    width: 300px;
+    height: 50px;
+    padding: 20px 32px;
+
     border: 1px solid rgba(216, 191, 216, 0.411);
     border-radius: 5px;
     background-color: white;
+    text-align: start;
 
 }
 
-.lets-get-btn {
-    padding: 12px 36px;
-    background-color: #4E47FF;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 16Px;
-    color: white;
-}
 
 /* footer-section style */
 
 footer {
-    padding: 150px 510px;
+    background-color: white;
+    border-top: 1px solid rgba(216, 191, 216, 0.486);
+    padding: 150px 500px;
 }
 
 .footer-section {
@@ -286,10 +301,11 @@ footer {
 }
 
 .footer-description {
-    margin: 15px auto;
+    margin: 10px auto;
+    margin-bottom: 25px;
     color: #252432;
 }
 
-.form-part label{
+.form-part label {
     font-weight: 500;
 }
