@@ -194,7 +194,7 @@ nav {
     font-size: 12px;
 }
 
-.riview-description{
+.riview-description {
     margin: 10px auto;
 }
 
@@ -203,4 +203,51 @@ nav {
     border: .05px solid teal;
     border-radius: 50px;
 
+}
+
+/* lets-get-section */
+
+.lets-get-section {
+    margin: 150px 140px;
+    display: flex;
+   gap: 115px;
+    align-items: center;
+
+}
+
+.lets-get-tittle {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.tittle-part {
+    max-width: 530px;
+    max-height: 230px;
+}
+.form-part{
+    max-width: 500px;
+    max-width: 490px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 20px 100%;
+    border: 1px solid rgba(216, 191, 216, 0.411);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.lets-get-btn {
+    padding: 12px 100%;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16Px;
+    color: white;
 }
